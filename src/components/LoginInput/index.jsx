@@ -3,8 +3,7 @@ import './index.scss';
 
 
 const LoginInput = () => (
-  <div className='LoginInput'>
-  </div>
+  <div className='LoginInput' />
 );
 
 export default LoginInput;
