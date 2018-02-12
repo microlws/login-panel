@@ -7,6 +7,7 @@ import './index.scss';
 const Content = () => (
   <div className='Content'>
     <div className='Content__inner'>
+      <h1 className='Content__title'>Login to Your Account</h1>
       <div className='Content__input'>
         <LoginInput />
       </div>
