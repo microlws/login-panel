@@ -3,7 +3,7 @@ import './index.scss';
 
 
 const LoginInput = () => (
-  <input type='text' className='LoginInput' />
+  <button className='Content__button'>Login</button>
 );
 
 export default LoginInput;

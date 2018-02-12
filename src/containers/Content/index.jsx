@@ -1,6 +1,7 @@
 import React from 'react';
 import LoginInput from 'components/LoginInput';
 import PasswordInput from 'components/PasswordInput';
+import LoginButton from 'components/LoginButton';
 
 import './index.scss';
 
@@ -13,6 +14,9 @@ const Content = () => (
       </div>
       <div className='Content__password'>
         <PasswordInput />
+      </div>
+      <div className='Content__button'>
+        <LoginButton />
       </div>
     </div>
   </div>
