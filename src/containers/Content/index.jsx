@@ -15,9 +15,9 @@ const Content = () => (
       <div className='Content__password'>
         <PasswordInput />
       </div>
-      <button className='Content__button'>
+      <div className='Content__button'>
         <LoginButton />
-      </button>
+      </div>
     </div>
   </div>
 );
